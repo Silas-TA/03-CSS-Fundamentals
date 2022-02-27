@@ -4,10 +4,16 @@ h3,
 h4,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #18a586;
 }
 
 h1 {
-  color: blue;
   font-size: 26px;
   font-style: italic;
   text-transform: uppercase;
@@ -45,6 +51,7 @@ li {
   font-style: italic;
 } */
 /* the id tag is only used once hence the name used for an id cannot be reused. The class element is used multiple times. */
+/* It is written # for id and . for classes */
 #author {
   font-style: italic;
   font-size: 18px;
@@ -65,4 +72,13 @@ li {
 /* or */
 .related {
   list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border: 5px solid #18a586;
 }
