@@ -37,10 +37,32 @@ li {
 }
 
 /* to select the paragraph inside the footer element, this is used */
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+/* the id tag is only used once hence the name used for an id cannot be reused. The class element is used multiple times. */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
-  font-style: italic;
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* aside ul {
+  list-style: none;
+} */
+/* or */
+.related {
+  list-style: none;
 }
