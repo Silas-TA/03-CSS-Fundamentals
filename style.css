@@ -80,5 +80,19 @@ li {
 
 aside {
   background-color: #f7f7f7;
-  border: 5px solid #18a586;
+  border-top: 5px solid #18a586;
+  border-bottom: 5px solid #18a586;
+}
+
+.conclusion {
+  background-color: #faf8e2;
+}
+
+.conclusion-title {
+  border-bottom: 3px solid #18a586;
+}
+
+.links {
+  flex: auto;
+  color: red;
 }
