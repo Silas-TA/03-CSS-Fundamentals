@@ -96,3 +96,32 @@ aside {
   flex: auto;
   color: red;
 }
+/* pseudo class */
+/* for example to select the first member of a list */
+/* li:first-child {
+  font-weight: bold;
+}
+li:nth-child(odd) {
+  color: red;
+} */
+
+/* stylink links */
+a:link {
+  color: #18a586;
+  text-decoration: none;
+}
+/* to change the color of the links that have been visited */
+/* a:visited {
+  color: #777;
+} */
+/* to change the color of the link when visited */
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: gray;
+  font-style: italic;
+}
